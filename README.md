@@ -14,3 +14,16 @@ https://www.superdatascience.com/computer-vision/
 
 GITHUB REPO CONTAINING MORE HAAR LIKE FEATURES.
 https://github.com/opencv/opencv/tree/master/data/haarcascades
+
+
+## SSD: SINGLE SHOT MULTIBOX DETECTOR
+
+
+
+### REFERENCES
+
+RESEARCH PAPER: https://arxiv.org/pdf/1512.02325.pdf
+
+
+GEOFFREY HINTON: FATHER OF DEEP LEARNING :)
+EXPLAINS THE NEURAL NETWORKS https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9
