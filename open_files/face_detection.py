@@ -24,7 +24,7 @@ def detect(gray, frame):
 	# min. no. neighbours.
 
 	faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-	print (faces) # tuples (x,y,w,h)
+	# print (faces) # tuples (x,y,w,h)
 
 	for (x,y,w,h) in faces:
 		# Draw the rectangle for the faces.
@@ -35,16 +35,33 @@ def detect(gray, frame):
 
 		# We will be taking to region of interest. The gray scale image and the colored image.
 
-		roi_gray = gray(y:y+h, x:x+w)
-		roi_color = frame(y:y+h, x:x+w)
+		roi_gray = gray[y:y+h, x:x+w]
+		roi_color = frame[y:y+h, x:x+w]
 
 		# Detecting the eyes.
-		eyes = eye_cascade.detectMultiScale(rot_gray, 1.1, 3)
+		eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 3)
 
 		for (ex, ey, ew, eh) in eyes:
 			cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0,255,0), 2)
 
 	return frame
 
+# DO face recognition using webcam.
+# We will apply this function to the last frame coming on the webcam.
 
+video_capture = cv2.VideoCapture(0) # 0 for computer webcam.
 
+while True:
+	_, last_frame = video_capture.read()
+	# convert to gray scale
+	gray = cv2.cvtColor(last_frame, cv2.COLOR_BGR2GRAY)
+
+	canvas = detect(gray, last_frame)
+
+	cv2.imshow('Video', canvas)
+
+	if cv2.waitKey(1) & 0xFF == ord('q'):
+		break
+
+video_capture.release()
+cv2.destroyAllWindows()
