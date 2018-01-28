@@ -46,3 +46,21 @@ https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-i
 
 GRADIENT DESCENT:
 http://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+
+STOCHASTIC GRADIENT DESCENT:
+https://iamtrask.github.io/2015/07/27/python-network-part2/
+
+
+GREAT ARTICLE TO UNDERSTAND THE NEURAL NETWORKS IN PYTHON:
+https://iamtrask.github.io/2015/07/12/basic-python-network/
+
+DIVING DEEPER INTO MATHEMATICS FOR DEEP LEARNING (also good to understand back propagation and grad descent)- A book by Michael Nielson
+http://neuralnetworksanddeeplearning.com/chap2.html
+
+### TRAINING THE ANN (ARTIFICIAL NEURAL NETWORK) WITH STOCHASTIC GRADIENT DESCENT)
+
+Step 1: Randomly initialize the weights to small numbers close to 0 (but not 0).
+
+Step 2: Input the first observation of your dataset in the input layer, eadch feature in one input node.
+
+Step 3: Forward-Propagation: from left to right, the neurons are activated in a way that the impact of each neuron activation is limited by weights. Propagate the activations until getting the predicted result y.
