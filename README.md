@@ -33,3 +33,6 @@ EXPLAINS THE NEURAL NETWORKS https://www.youtube.com/watch?v=cbeTc-Urqak&list=PL
 
 STANDARDIZATION AND NORMALIZATION
 http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+
+ACTIVATION FUNCTIONS:
+http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf
