@@ -27,3 +27,9 @@ RESEARCH PAPER: https://arxiv.org/pdf/1512.02325.pdf
 
 GEOFFREY HINTON: FATHER OF DEEP LEARNING :)
 EXPLAINS THE NEURAL NETWORKS https://www.youtube.com/watch?v=cbeTc-Urqak&list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9
+
+
+### ADDITIONAL READING RESOURCES
+
+STANDARDIZATION AND NORMALIZATION
+http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
