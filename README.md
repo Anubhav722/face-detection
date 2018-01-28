@@ -43,3 +43,6 @@ wikipedia article: https://en.wikipedia.org/wiki/Activation_function
 
 COST FUNCTIONS:
 https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
+
+GRADIENT DESCENT:
+http://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
