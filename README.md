@@ -72,3 +72,18 @@ Step 5: Back Propagation: from right to left, the error is back propagated. Upda
 Step 6: Repeat Steps 1 to 5 and update the weights after each observation (Reinforcement Learning). Or: Repeat Steps 1 to 5 but update the weights only after a batch of observations (Batch Learning).
 
 Step 7: When the whole training set is passed through the ANN, that makes an epoch. Redo more epochs.
+
+
+### CONVOLUTIONAL NEURAL NETWORKS
+
+Understanding them: http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+
+Introduction to convolutional neural network(for mathematics): https://cs.nju.edu.cn/wujx/paper/CNN.pdf
+
+ReLU LAYER
+Why is a non-linear activation function is essential at the filter output of all intermediate layers.
+Understanding Convolutional Neural Networks with A Mathematical Model: https://arxiv.org/pdf/1609.04112v2.pdf
+
+POOLING: https://www.ais.uni-bonn.de/papers/icann2010_maxpool.pdf
+
+Visualization of Convolutional neural network: http://scs.ryerson.ca/~aharley/vis/conv/flat.html
