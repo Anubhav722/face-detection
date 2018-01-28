@@ -40,3 +40,6 @@ http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf
 medium article explaining activation functions: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
 analytics vidhya link: https://www.analyticsvidhya.com/blog/2017/10/fundamentals-deep-learning-activation-functions-when-to-use-them/
 wikipedia article: https://en.wikipedia.org/wiki/Activation_function
+
+COST FUNCTIONS:
+https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
