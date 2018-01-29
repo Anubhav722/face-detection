@@ -94,3 +94,5 @@ STEPS INVOLVED IN CNN:
 2. Pooling
 3. Flattening 
 4. Full Connection
+
+DEEP LEARNING BLOGS: https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
