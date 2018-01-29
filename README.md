@@ -87,3 +87,10 @@ Understanding Convolutional Neural Networks with A Mathematical Model: https://a
 POOLING: https://www.ais.uni-bonn.de/papers/icann2010_maxpool.pdf
 
 Visualization of Convolutional neural network: http://scs.ryerson.ca/~aharley/vis/conv/flat.html
+
+STEPS INVOLVED IN CNN:
+1. Convolution
+1b. ReLu Layer (Removing Linearity)
+2. Pooling
+3. Flattening 
+4. Full Connection
